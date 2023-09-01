@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+body {
+  background-color: rgb(92, 91, 91);
+  color: aliceblue;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  min-height: 100vh;
+  flex-direction: column;
+}
+.stopwatch {
+  background-color: black;
+  border-radius: 10px;
+  padding: 24px 20px;
+}
+.timedisplay {
+  font-weight: 600px;
+  font-size: 50px;
+}
+.button {
+  margin: 10px;
+  box-sizing: content-box;
+}
+.btn {
+  font-size: 100px;
+  background: none;
+  color: rgb(255, 255, 255);
+  background-color: rgb(64, 173, 173);
+  padding: 12px 24px;
+}
+.stop {
+  background-color: brown;
+  margin: 12px;
+  cursor: pointer;
+  border-radius: 8px;
+  font-size: xx-large;
+  font-family: serif;
+}
+.start {
+  background-color: blue;
+  margin: 12px;
+  cursor: pointer;
+  border-radius: 8px;
+  font-size: xx-large;
+  font-family: serif;
+}
+.reset {
+  background-color: blueviolet;
+  margin: 12px;
+  cursor: pointer;
+  border-radius: 8px;
+  font-size: xx-large;
+  font-family: serif;
+}
+.p {
+  display: inline;
+  font-size: 70px;
+}
